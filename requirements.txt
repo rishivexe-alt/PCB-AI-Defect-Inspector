@@ -1,0 +1,7 @@
+ultralytics==8.4.163
+streamlit==1.64.0
+Pillow
+opencv-python
+numpy
+pandas
+matplotlib

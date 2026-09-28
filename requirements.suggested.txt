@@ -1,0 +1,16 @@
+# UNVERIFIED suggestion - derived from the project report and dashboard text,
+# NOT from an audit of dashboard/app.py (that file was not supplied).
+#
+# Before publishing, replace this with the versions your working .venv uses:
+#     pip freeze > requirements.txt      (then prune to direct dependencies)
+# and verify in a clean environment (see docs/installation.md).
+#
+# Report states: Python 3.12, Ultralytics YOLOv8, PyTorch, OpenCV, Streamlit.
+# Dashboard text mentions Pillow-style EXIF/RGB handling and CSV export (pandas).
+streamlit
+ultralytics
+torch
+opencv-python
+pillow
+pandas
+numpy

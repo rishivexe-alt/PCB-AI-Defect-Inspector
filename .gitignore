@@ -1,0 +1,62 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Streamlit local state / secrets ---
+.streamlit/secrets.toml
+
+# --- Secrets and private files ---
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
+
+# --- Model weights (see models/README.md) ---
+# Weights are ignored by default: they may be large and their redistribution
+# rights must be confirmed. To publish a specific file, either use Git LFS or
+# add an exception, e.g.:   !models/pcb_v2_finetuned.pt
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+!models/README.md
+
+# --- Datasets (images/labels are not redistributed by default) ---
+dataset/images/
+dataset/labels/
+dataset/train/
+dataset/valid/
+dataset/val/
+dataset/test/
+dataset/*.cache
+*.cache
+!dataset/README.md
+!dataset/data.yaml
+
+# --- Training / evaluation artefacts ---
+runs/
+wandb/
+lightning_logs/
+
+# --- Local backups, databases, logs, OS files ---
+*_backup*/
+*.bak
+*.db
+*.sqlite
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
