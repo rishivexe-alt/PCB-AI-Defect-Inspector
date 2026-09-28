@@ -4,7 +4,9 @@
 ### YOLOv8-Powered AI Visual Inspection System
 
 Upload a printed-circuit-board image, run a trained YOLOv8 model, and review detected defect locations, confidence values, class analytics and exportable reports in a dark-themed Streamlit dashboard.
+### 🚀 Live Demo
 
+**Try the PCB Defect Inspector:** [Launch the Live Application](https://pcb-ai-defect-inspector-rishi.streamlit.app)
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![YOLOv8](https://img.shields.io/badge/Ultralytics-YOLOv8-00B4D8)
 ![Streamlit](https://img.shields.io/badge/Streamlit-dashboard-FF4B4B?logo=streamlit&logoColor=white)
