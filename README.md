@@ -16,7 +16,6 @@ Upload a printed-circuit-board image, run a trained YOLOv8 model, and review det
 
 </div>
 
-> **Research / demonstration prototype.** This performs visual inference on an image. It is not certified electrical testing, does not establish electrical function, and cannot guarantee a board is defect-free. Every output is an AI prediction that needs human review.
 
 ---
 
