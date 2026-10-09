@@ -221,7 +221,7 @@ Exports are created in memory per the app; do not upload confidential boards to 
 Re-evaluate the published weights on a representative labelled test set; balance under-represented classes; report per-class P/R/AP, confusion matrix and latency; choose thresholds from validation data; add tests (model loading, paths, inference, CSV); include model version and settings in exports; improve input validation; explore model optimisation; document dataset provenance.
 
 ## 23. Acknowledgements
-[Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics), [Streamlit](https://streamlit.io), PyTorch, OpenCV and the (yet-to-be-attributed) PCB dataset authors.
+[Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics), [Streamlit](https://streamlit.io), PyTorch, OpenCV and the  PCB dataset authors.
 
 ## 24. Author
-**Rishi P** - Electronics and Communication Engineering | Embedded Systems, AI-based Visual Inspection *(name and description taken from the supplied README draft; confirm and add GitHub/LinkedIn links)*.
+**Rishi P** - Electronics and Communication Engineering
