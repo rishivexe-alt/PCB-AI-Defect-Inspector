@@ -207,8 +207,8 @@ PCB-Defect-Inspector/
 ├── docs/                        # architecture, evaluation, guide, install, deployment, licensing, limitations
 ├── models/README.md             # + your *.pt (git-ignored)
 ├── dataset/README.md            # + your data.yaml
-├── dashboard/app.py             # YOUR existing app (not included in this package)
-└── src/                         # YOUR existing scripts (not included in this package)
+├── dashboard/app.py             
+└── src/                         
 ```
 
 ## 20. Licensing
